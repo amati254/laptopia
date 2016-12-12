@@ -9,7 +9,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-
+//code for Splash Screen
 public class Splashscreen extends Activity {
     public void onAttachedToWindow() {
         super.onAttachedToWindow();
@@ -17,7 +17,7 @@ public class Splashscreen extends Activity {
         window.setFormat(PixelFormat.RGBA_8888);
     }
     /** Called when the activity is first created. */
-    Thread splashTread;
+    Thread splashTread;//
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
